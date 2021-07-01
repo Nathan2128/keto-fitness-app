@@ -2,13 +2,13 @@
 
 @include mat-core();
 
-$candy-app-primary: mat-palette($mat-orange);
-$candy-app-accent:  mat-palette($mat-yellow, A200, A100, A400);
+$keto-fitness-app-primary: mat-palette($mat-blue-gray, 500);
+$keto-fitness-app-accent:  mat-palette($mat-indigo, 100);
 
 // The warn palette is optional (defaults to red).
-$candy-app-warn:    mat-palette($mat-red);
+$keto-fitness-app-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
+$keto-fitness-app-theme: mat-light-theme($keto-fitness-app-primary, $keto-fitness-app-accent, $keto-fitness-app-warn);
 
-@include angular-material-theme($candy-app-theme);
+@include angular-material-theme($keto-fitness-app-theme);
